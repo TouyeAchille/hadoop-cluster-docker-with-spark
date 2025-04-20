@@ -60,8 +60,8 @@ RUN mv /tmp/ssh_config ~/.ssh/config && \
     mv /tmp/hadoop/mapred-site.xml $HADOOP_HOME/etc/hadoop/mapred-site.xml && \
     mv /tmp/hadoop/yarn-site.xml $HADOOP_HOME/etc/hadoop/yarn-site.xml && \
     mv /tmp/hadoop/slaves $HADOOP_HOME/etc/hadoop/slaves && \
-    mv /tmp/hadoop/start-hadoop.sh ~/start-hadoop.sh && \
-    mv /tmp/hadoop/run-wordcount.sh ~/run-wordcount.sh && \
+    mv /tmp/scripts/start-hadoop.sh ~/start-hadoop.sh && \
+    mv /tmp/scripts/run-wordcount.sh ~/run-wordcount.sh && \
     mv /tmp/spark/spark-defaults.conf $SPARK_HOME/conf/spark-defaults.conf
 
 
